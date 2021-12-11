@@ -1,4 +1,3 @@
-// console.log('hello')
 const express = require('express')
 const bodyParser = require('body-parser')
 const cors = require('cors')
@@ -21,4 +20,4 @@ app.get('/register', (req, res) => {
   })
 })
 
-app.listen(process.env.PORT || 8081)
+ app.listen(process.env.PORT || 8081)
